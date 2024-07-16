@@ -1,5 +1,5 @@
 package ARRAYSTRING;
-
+//https://leetcode.com/problems/greatest-common-divisor-of-strings/description/?envType=study-plan-v2&envId=leetcode-75
 public class GCDStrng {
     public static void main(String[] args) {
         
@@ -12,7 +12,7 @@ public class GCDStrng {
         int b = str2.length();
         int gcdLength = gcd(str1.length(), str2.length());
 
-        
+
         //part of string whch can divded both strings.
         return str1.substring(0, gcdLength); 
 
